@@ -16,7 +16,7 @@ namespace DesignPatternProject.ChooseMenu.Interface
 
         //Returns is cuurrent item 
         ChooseMenuItem CurrentItem { get; }
-
+        //Nextitem combines the roles of the next and isDone methods
         bool IsDone { get; }
 
         int CurrentIndex { get; }
