@@ -24,7 +24,7 @@ namespace DesignPatternProject.Helpers
 
         }
 
-        //GetCurrentSession - makes the decision you made
+        //GetCurrentSession -Returns the current session.
         public static SessionHelpers GetCurrentSession()
         {
             if (CurrentSession == null)
